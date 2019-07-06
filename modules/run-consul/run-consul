@@ -321,6 +321,9 @@ EOF
   $recursors_config
   $retry_join_json
   "server": $server,
+  "connect": {
+  "enabled" : true
+  },
   $gossip_encryption_configuration
   $rpc_encryption_configuration
   $autopilot_configuration
